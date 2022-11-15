@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(/assets/fonts/OpenSans-Regular.ttf) ;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Open Sans SemiBold';
+    src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Open Sans ExtraBold';
+    src: url(/assets/fonts/OpenSans-ExtraBold.ttf);
+    font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+    --text-color: #111111;
+    --ui-color: #3E89F4;
+    --bg-color: #ffffff;
+    --section-color: #F7F7F7;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans Regular',;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list-reset {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.btn {
+
+
+    box-shadow: 0px 4px 20px rgba(62, 137, 244, 0.3);
+    border-radius: 4px;
+    
+        border: none;
+        background-color: var(--ui-color);
+        font-family: 'Open Sans';
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+    /* identical to box height, or 21px */
+    color: #F7F7F7;
+    
+    text-align: center;
+    
+    
+    }
+.container {
+    max-width: 1440px;
+    margin: 0 120px;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.header__logo {
+    flex-shrink: 0
+    /* Социально-Кредитная сеть */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #2C3136;
+
+
+}
+.header__center {
+    margin-left: 116px;
+    
+    justify-content: space-between;
+}
+.text {
+    margin: 5px;
+ 
+}
+.header__contacts{
+    margin-left: 81px;
+    /* 8 800 000 00 00 */
+
+
+
+left: 996px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #2C3136;
+    
+}
+
+.search {
+    margin-left: 78px;
+    border: none;
+    background-color: #ffffff;
+}
+.input {
+    margin-left: 30px;
+}
+
