@@ -51,6 +51,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+.h2 {
+  margin: 0;
+  font-size: 1.875rem;
+  line-height: 120%;
+  color: var(--text-color);
+  
+}
 
 .list-reset {
   display: block;
@@ -60,19 +67,19 @@ img {
   
 }
 .btn {
-
-
     box-shadow: 0px 4px 20px rgba(62, 137, 244, 0.3);
     border-radius: 4px;
     
         border: none;
         background-color: var(--ui-color);
+
         font-family: 'Open Sans';
-    
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 150%;
+
+        
     /* identical to box height, or 21px */
     color: #F7F7F7;
     
@@ -80,65 +87,420 @@ img {
     
     
     }
+    
+    
+    .btn:active {
+      box-shadow: none;
+    }
+    
+    .btn_transparent {
+      background-color: transparent;
+    }
+    
+    .btn_transparent:hover {
+      background-color: var(--ui-color);
+    }
+    
+    .btn_lg {
+      padding: 13px 21px;
+    }
+
 .container {
-    max-width: 1440px;
-    margin: 0 120px;
+align-items: center;
+max-width: 1440px;
+width: 100%;
+
+
+margin: 0 auto;
+      
 }
 .header-row {
+
     display: flex;
     align-items: center;
     padding: 10px 0;
 }
 .header__logo {
-    flex-shrink: 0
-    /* Социально-Кредитная сеть */
+  margin-left: 120px;
+  margin-right: 116px;
+ 
 
+  left: 8.33%;
+  right: 71.67%;
+  top: 30.3%;
+  bottom: 28.79%;
+    
 font-family: 'Open Sans';
-font-style: normal;
+font-style: bold;
 font-weight: 700;
 font-size: 20px;
 line-height: 27px;
 
 color: #2C3136;
 
-
 }
 .header__center {
-    margin-left: 116px;
-    
-    justify-content: space-between;
-}
-.text {
-    margin: 5px;
- 
-}
-.header__contacts{
-    margin-left: 81px;
-    /* 8 800 000 00 00 */
-
-
-
-left: 996px;
-
+justify-content: space-between;
+  
 
 font-family: 'Open Sans';
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
 font-size: 16px;
 line-height: 22px;
+
 /* identical to box height */
 
 
 color: #2C3136;
-    
+
+}
+.text {
+    margin: 5px;
+}
+.header__contacts{
+    margin-left: 81px;
+    /* 8 800 000 00 00 */
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #2C3136;
 }
 
 .search {
     margin-left: 78px;
     border: none;
     background-color: #ffffff;
+    box-shadow:none;
+    cursor: pointer;
+  
 }
 .input {
-    margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 120px;
+  cursor: pointer;
+  
+  width: 70px;
+  height: 33px;
 }
 
+
+.first-screen {
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 66px;
+  background-image: url(/assets/img/helena-lopes-e3OUQGT9bWU-unsplash\ 1.jpg);
+} 
+
+.first-screen-title {
+margin: 0 424px;
+padding: 60px;
+
+/* identical to box height */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+
+color: #2C3136;
+}
+.card {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.tittle-card {
+  display: flex;
+  justify-content: center;
+  margin: 70px 182px;
+
+  width: 135.27px;
+height: 41px;
+align-items: center;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+.subtittle-card {
+  display: flex;
+  justify-content: center;
+  margin: 70px 43.09px 60px ;
+
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+text-align: center;
+
+color: #54585D;
+}
+.registration {
+
+  display: flex;
+  justify-content: center;
+  margin: 30px 151px;
+
+  width: 196.39px;
+height: 57px;
+left: 362.3px;
+top: 600px;
+
+align-items: center;
+
+cursor: pointer;
+
+}
+.collumn-first {
+  
+width: 499px;
+height: 448px;
+  
+
+background: rgba(255, 255, 255, 0.9);
+border-radius: 10px 10px 0px 0px;
+
+margin-left:211px;
+}
+.collumn-second {
+  
+width: 498px;
+height: 448px;
+
+
+background: rgba(255, 255, 255, 0.9);
+border-radius: 10px 10px 0px 0px;
+
+margin-right: 212px ;
+}
+
+
+
+
+
+
+.about-us {
+  padding: 0px 0 100px 0px;
+}
+.us {
+ margin: 101px 1220px 30px 120px;
+
+ font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #2C3136;
+
+}
+
+
+
+
+
+
+.second-screen__card {
+  margin: 0 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+
+.second-card {
+min-height: 256px;
+padding: 40px 40px 22px 40px;
+border-radius: 10px;
+width: 584px;
+height: 278px;
+
+background: #FFFFFF;
+border: 1px solid #F0F0F0;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+}
+.card__group {
+  
+  display: flex;
+  justify-content:space-between ;
+  align-items: flex-start;
+  
+}
+.second-card__titlef {
+  width: 203px;
+height: 64px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 150%;
+/* or 32px */
+
+color: #000000;
+
+margin: 0;
+
+}
+.second-card__titlese {
+width: 341px;
+height: 64px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 150%;
+/* or 32px */
+
+color: #000000;
+
+margin: 0;
+}
+.card-img {
+}
+.second-card__subtitle{
+  width: 380px;
+  height: auto;
+  left: 792px;
+  top: 1322px;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  
+  
+  color: #54585D;
+}
+.how-this-work {
+background: #F7F7F7;
+
+}
+.how-this-work__title {
+margin:0 120px;
+width: 308px;
+height: 49px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #2C3136;
+}
+.agreements-group {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 20px;
+
+}
+.how-this-work__zaemshik {
+  width: 100px;
+height: 32px;
+margin-left: 120px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 150%;
+/* identical to box height, or 32px */
+
+
+color: #3E89F4;
+}
+
+.how-this-work__creditor {
+  width: 104px;
+height: 32px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 150%;
+/* identical to box height, or 32px */
+
+
+color: #B1B1B1;
+
+}
+.basic {
+  margin-left: 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+
+}
+.instruments-group {
+  
+}
+.how-this-work__subtitle {
+  
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.box2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+
+
+
+
+
+footer {
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 220px;
+  
+  background: #3E89F4;
+
+  
+}
