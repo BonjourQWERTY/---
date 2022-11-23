@@ -51,6 +51,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+li {
+  color: #3E89F4;
+}
 h2 {
   margin: 0;
   font-size: 1.875rem;
@@ -65,6 +68,9 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+section {
+  display: block;
 }
 
 .list-reset {
@@ -115,7 +121,7 @@ h3 {
     }
 
 .container {
-align-items: center;
+
 max-width: 1440px;
 width: 100%;
 
@@ -198,12 +204,15 @@ color: #2C3136;
 
 
 .first-screen {
-width: 1440px;
+
+
 height: 600px;
-left: 0px;
-top: 66px;
-  background-image: url(/assets/img/helena-lopes-e3OUQGT9bWU-unsplash\ 1.jpg);
+
+background-image: url(/assets/img/helena-lopes-e3OUQGT9bWU-unsplash\ 1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 } 
+
 
 .first-screen-title {
 margin: 0 424px;
@@ -402,7 +411,9 @@ margin: 0;
   
   color: #54585D;
 }
+
 .how-this-work {
+
 padding-top: 52px;
 padding-bottom:48px ;
 
@@ -466,12 +477,16 @@ color: #B1B1B1;
   display: flex;
   flex-direction: row;
   
-  width: 1200px;
+  
   margin:0 120px;
 }
 .instrumental-icons {
+
+
+
 margin-left: 38px;
 }
+
 
 
 .basic__icon-text {
@@ -515,6 +530,230 @@ line-height: 150%;
 
 color: #54585D;
 }
+
+
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.faq__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__divider {
+  width: 85px;
+  height: 2px;
+  background-color: var(--ui-color);
+}
+
+.faq__content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.question-list__content input {
+  display: none;
+}
+
+.question-list {
+  font-size: 1.125rem;
+  margin-right: 34px;
+}
+
+.question-list__content label {
+  cursor: pointer;
+}
+
+.question-container {
+  max-width: 100%;
+  width: 716px;
+  height: 64px;
+  border: 1px solid #3A444E;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  transition: height 0.7s, background-color 0.7s, color 0.2s;
+}
+
+.question-text {
+  display: flex;
+  padding-left: 34px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.hq {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  display: none;
+  color: #282B38;
+  margin-left: 34px;
+  margin-bottom: 21px;
+  margin-right: 99px;
+}
+
+.question-text p {
+  margin: 0;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  
+}
+
+.question-text svg {
+  margin-top: 18.42px;
+  fill: #ffffff;
+  transition: all 0.7s;
+}
+
+
+
+#cbx1:checked ~
+
+.qu-co1 {
+  height: 152px;
+  color: #282B38;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#cbx1:checked ~
+
+.qu-co1 svg {
+  transform: rotate(-90deg);
+  fill: var(--ui-color);
+}
+
+#cbx1:checked ~
+
+.qu-co1 div:nth-child(2) {  
+  display: block;
+}
+
+#cbx2:checked ~
+
+.qu-co2 {
+  height: 152px;
+  color: #282B38;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#cbx2:checked ~
+
+.qu-co2 svg {
+  transform: rotate(-90deg);
+  fill: var(--ui-color);
+}
+
+#cbx2:checked ~
+
+.qu-co2 div:nth-child(2) {  
+  display: block;
+}
+
+#cbx3:checked ~
+
+.qu-co3 {
+  height: 152px;
+  color: #282B38;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#cbx3:checked ~
+
+.qu-co3 svg {
+  transform: rotate(-90deg);
+  fill: var(--ui-color);
+}
+
+#cbx3:checked ~
+
+.qu-co3 div:nth-child(2) {  
+  display: block;
+}
+
+#cbx4:checked ~
+
+.qu-co4 {
+  height: 152px;
+  color: #282B38;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#cbx4:checked ~
+
+.qu-co4 svg {
+  transform: rotate(-90deg);
+  fill: var(--ui-color);
+}
+
+#cbx4:checked ~
+
+.qu-co4 div:nth-child(2) {  
+  display: block;
+}
+
+#cbx5:checked ~
+
+.qu-co5 {
+  height: 152px;
+  color: #282B38;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#cbx5:checked ~
+
+.qu-co5 svg {
+  transform: rotate(-90deg);
+  fill: var(--ui-color);
+}
+
+#cbx5:checked ~
+
+.qu-co5 div:nth-child(2) {  
+  display: block;
+}
+
+#cbx6:checked ~
+
+.qu-co6 {
+  height: 152px;
+  color: #282B38;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#cbx6:checked ~
+
+.qu-co6 svg {
+  transform: rotate(-90deg);
+  fill: var(--ui-color);
+}
+
+#cbx6:checked ~
+
+.qu-co6 div:nth-child(2) {  
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
 .news {
   padding: 100px 0;
   margin: 0 120px;
@@ -538,7 +777,7 @@ color: #2C3136;
 .news__row {
   display: flex;
     flex-direction: row;
-    width: 1200px;
+    
     justify-content: space-between;
   
 }
@@ -582,6 +821,7 @@ line-height: 150%;
 color: #2C3136;
 }
 .button-news {
+  display: flex;
   padding: 0;
   border: none;
   background-color: #FFFFFF;
@@ -589,15 +829,26 @@ color: #2C3136;
   cursor: pointer;
 }
 .arrow {
+  margin-top: 5px;
+  margin-left: 6.75px;
+  
   width: 9px;
   height: 9px;
-  border-top: 2px solid #034FBC ;
-  border-right: 2px solid #034FBC;
+  border-top: 1.5px solid #034FBC ;
+  border-right: 1.5px solid #034FBC;
   
   transform: rotate(45deg);
 }
 
+footer {
+  
+  
+  height: 220px;
+  background: #3E89F4;
 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .footer-row {
   
 
