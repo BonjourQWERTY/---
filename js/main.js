@@ -14,3 +14,10 @@ function handleCloseRequestDialog() {
 inputRequestBtn.addEventListener('click', handleOpenRequestDialog);
 inputRequestClose.addEventListener('click', handleCloseRequestDialog);
 inputRequestOverlay.addEventListener('click', handleCloseRequestDialog);
+
+
+
+
+
+
+
