@@ -178,9 +178,9 @@ color: #2C3136;
 }
 .card {
   display: flex;
- justify-content: space-around;
+  justify-content: space-around;
   padding-top: 61px;
-  gap: 20px;
+  padding: 61px 80px 0;
   grid-template-columns: repeat(2, 1fr);
 }
 .card__title {
@@ -206,7 +206,7 @@ color: #2C3136;
   text-align: center;
   color: #54585D;;
 }
-.registration {
+.card__register {
   left: 362.3px;
   top: 600px;
   display: flex;
@@ -217,14 +217,8 @@ color: #2C3136;
   align-items: center;
   cursor: pointer;
 }
-.card__first-collumn {
+.card__log-in {
   width: 499px;
-  height: 448px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 10px 10px 0px 0px;
-}
-.card__second-collumn {
-  width: 498px;
   height: 448px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px 10px 0px 0px;
@@ -237,12 +231,12 @@ color: #2C3136;
   font-weight: 600;
   font-size: 2.25rem;
 }
-.second-screen-card {
+.about-us-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
-.second-card {
+.us-card {
 min-height: 256px;
 width: 584px;
 height: 278px;
@@ -253,22 +247,12 @@ border: 1px solid #F0F0F0;
 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
 border-radius: 5px;
 }
-.second-card__group {
+.us-card__group {
   display: flex;
   justify-content:space-between ;
   align-items: flex-start;
 }
-.second-card__title {
-width: 203px;
-height: 64px;
-margin: 0;
-font-family: 'Open Sans Regular';
-font-weight: 600;
-font-size: 1.313rem;
-line-height: 150%;
-color: #000000;
-}
-.second-card__name {
+.us-card__title {
 width: 341px;
 height: 64px;
 font-family: 'Open Sans Regular';
@@ -278,7 +262,7 @@ line-height: 150%;
 color: #000000;
 margin: 0;
 }
-.second-card__subtitle{
+.us-card__subtitle{
   left: 792px;
   top: 1322px;
   width: 380px;
@@ -303,7 +287,7 @@ font-weight: 600;
 font-size: 2.25rem;
 color: var(--text-color);
 }
-.agreements-group {
+.how-it-works__agreements-group {
   display: grid;
   grid-template-columns: repeat(2, 0fr);
   gap: 20px;
@@ -820,6 +804,7 @@ font-size: 0.875rem;
   margin-bottom: 11px;
   cursor: pointer;
 }
+
 .regist {
   font-family: 'Open Sans SemiBold';
 font-weight: 400;
@@ -831,3 +816,4 @@ font-size: 0.875rem;
   cursor: pointer;
   box-shadow: none;
 }
+
