@@ -267,6 +267,9 @@ color: #2C3136;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
+.slideshow-container {
+  display: none;
+}
 .us-card {
 min-height: 256px;
 width: 584px;
@@ -304,6 +307,9 @@ margin: 0;
   font-family:'Open Sans';
   line-height: 150%;
   color: #54585D;
+}
+.circles {
+  display: none;
 }
 /*How-it-works*/
 .how-it-works {
@@ -1078,7 +1084,7 @@ margin: 0;
 .header__fast-access {
   display: flex;
   justify-content: space-between;
-  gap: 5px;
+  gap: 20px;
 }
 .phone {
   transition: 0.3s;
@@ -1121,14 +1127,22 @@ font-size: 0.750rem;
   margin-top: 20px;
 }
 .card__subtitle {
+  margin-left: 10px;
   margin-top: 10px;
+  width: 280px;
+  font-size: 1.063rem;
 }
 .card__register{
   margin-top: 15px;
 }
+.about-us {
+  padding-bottom: 40px;
+}
 .about-us-card{
-  display: flex;
-  justify-content: space-between;
+  display: none;
+}
+.slideshow-container {
+  display: block;
 }
 .us-card {
   width: 300px;
@@ -1138,7 +1152,11 @@ font-size: 0.750rem;
 .us-card:hover {
   transform: none;
 }
+.us-card__group {
+  margin-bottom: 5px;
+}
 .us-card__title {
+  width: 170px;
   font-size: 1.125rem;
 }
 .us-card svg {
@@ -1147,14 +1165,65 @@ font-size: 0.750rem;
 }
 .us-card__subtitle {
   width: 270px;
+  font-size: 0.938rem;
+}
+ul {
+  width: 254px;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.circles {
+display: block;
+padding-top: 20px;
+text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color:#3E89F4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #034FBC;
 }
 .basic-borrower {
   display: grid;
   grid-template-columns: repeat(1,1fr);
 }
+
+.basic__subtitle {
+  font-size: 0.938rem;
+}
 .news-row {
   display: grid;
   grid-template-columns: repeat(1,1fr);
+}
+.news__subtitle {
+  font-size: 0.875rem;
+}
+.news__title {
+  font-size: 0.938rem;
+  width: 310px;
+  margin-bottom: 20px;
 }
 .question-text p {
 margin-left: 10px;
