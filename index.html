@@ -82,7 +82,7 @@
                          <div class="card">
                                 <div class="card__log-in">
                                       <h2 class="card__title">Заемщик</h2>
-                                      <p class="card__subtitle">Категория пользователей, осуществляющая действия с целью получения кредита (займа) под залог движимого или недвижимого имущества.</p>
+                                      <p class=" card__borrower">Категория пользователей, осуществляющая действия с целью получения кредита (займа) под залог движимого или недвижимого имущества.</p>
                                       <button class="card__register btn" >Зарегистрироваться</button>
                                 </div>
                                 <div class="card__log-in">
@@ -246,8 +246,9 @@
         <div class="container">
             <h2 class="how-it-works__title">Как это работает</h2>
             <div class="how-it-works__agreements-group">
-            <details>
-              <summary>Заемщик</summary>
+
+              <label for="pseudoBtn" class="btn-hiw">Заемщик</label>
+              <input type="checkbox" id="pseudoBtn">
               <div class="basic-borrower">
               <article class="basic__icon-text">
                   <svg width="52" height="52" viewBox="0 0 40 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -305,11 +306,11 @@
                   </div>
               </article>
               </div>
-            </details>
-            <details>
-              <summary>Кредитор</summary>
+
+
+              Кредитор
               <div class="basic-creditor">Информации нет</div>
-            </details>
+
             </div>
         </div>
         </section>
